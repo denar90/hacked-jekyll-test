@@ -1,0 +1,11 @@
+stackbitVersion: ~0.6.0
+ssgName: custom
+cmsName: git
+
+devCommand: bundle exec jekyll serve --livereload
+
+experimental:
+  ssg:
+    name: jekyll
+    logPatterns:
+      up: "Server address"
